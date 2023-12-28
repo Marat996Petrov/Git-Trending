@@ -16,6 +16,11 @@
     '^.+\\.(js|jsx|ts|tsx|svg)$': ['babel-jest', { presets: ['next/babel'] }]
   },
 
+        "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+
 const nextConfig = {
   compiler: {
     emotion: true,
