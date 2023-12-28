@@ -15,3 +15,14 @@
         https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object */
     '^.+\\.(js|jsx|ts|tsx|svg)$': ['babel-jest', { presets: ['next/babel'] }]
   },
+
+const nextConfig = {
+  compiler: {
+    emotion: true,
+    styledComponents: true
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['ipfs.io']
+  },
